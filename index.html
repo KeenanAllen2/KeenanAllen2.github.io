@@ -2,60 +2,89 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UtF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viweport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/glightbox.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <title>Keenan Allen Homepage</title>
 </head>
 
-<body class="hero-body">
-    <header class="her-box">
+<body>
+    <header class="hero-box">
         <section class="hero-image-box">
-            <video src="video/Anime Sword Fight.mp4" class="hero-video" autoplay muted loop>
+            <img class="hero-image" src="img/KeenanAllen-project2-Digital1.jpg" alt="color scheme">
         </section>
-        <nav class="nav-bar hero-nav">
-            <h1 class="logo"><a href="index.html">Keenan Allen</a></h1>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-                <li class="nav-item"><a href="shop.html">Shop</a></li>
-                <li class="nav-item"><a href="about.html">About</a></li>
-                <li class="nav-item social-nav-item"><a href="https://twitter.com/DigitalKiller08"
-                        aria-label="link to Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                <li class="nav-item social-nav-item"><a href="https://instagram.com/keenanallen2254"
-                        aria-label="link to Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                <li class="nav-item social-nav-item"><a href="https://artstation.com/Keenan Allen"
-                        aria-label="link to Artstation"><i class="fab fa-artstation" aria-hidden="true"></i></a></li>
-            </ul>
-        </nav>
-        <section class="her0-text-box">
-            <h1 class="hero-heading">Be like a samuria and be pride and respectfull</h1>
-            <p class="hero-text">The point is that once you know what you want you must be prepared to sacriffice
-                everything to get it</p>
-            <p><button class="hero-button"> View Portfolio</button></p>
+        <section class="hero-text-box">
+            <h1 class="hero-heading">Welcome!</h1>
+            <p class="hero-text">Image box and overlay 100vh</p>
         </section>
     </header>
-    <footer>
-        <nav class="nav-bar footer-nav">
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-                <li class="nav-item"><a href="shop.html">Shop</a></li>
-                <li class="nav-item"><a href="about.html">About</a></li>
-                <li class="nav-item logo footer-logo"><a href="index.html">Keenan Allen </a></li>
-            </ul>
-        </nav>
-        <section class="footer-social">
-            <a href="https://twitter.com/DigitalKiller08" aria-label="link to Twitter"><i class="fab fa-twitter fa-4x"
-                    aria-hidden="true"></i></a>
-            <a href="https://instagram.com/keenanallen2254" aria-label="link to Instagram"><i
-                    class="fab fa-instagram fa-4x" aria-hidden="true"></i></a>
-            <a href="https://artstation.com/Keenan Allen" aria-label="link to Artstation"><i
-                    class="fab fa-artstation fa-4x" aria-hidden="true"></i></a>
-            </ul>
+    */ begin portfolio gallary */
+    <Section class="portfolio-container">
+        <h1>Portfolio</h1>
+        <section class="portfolio-gallery">
+
+            <div class="gallery-item">
+                <a class="glightbox" href="">
+                    <img src="img/KeenanAllen-DrakeIllustration.jpg" alt="" class="gallery-image">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a class="glightbox" href="">
+                    <img src="img/KeenanAllen-ACF.jpg" alt="" class="gallery-image">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a class="glightbox" href="">
+                    <img src="img/KeenanAllen-Darkness.jpg" alt="" class="gallery-image">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a class="glightbox" href="">
+                    <img src="img/KeenanAllen-JoeyIllustration.jpg" alt="" class="gallery-image">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a class="glightbox" href="">
+                    <img src="img/KeenanAllen-JakeIllustration.jpg" alt="" class="gallery-image">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a class="glightbox" href="">
+                    <img src="img/KeenanAllen-BigthreeIllustration.jpg" alt="" class="gallery-image">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a class="glightbox" href="">
+                    <img src="img/KeenanAllen-AL-Illustration.jpg" alt="" class="gallery-image">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a class="glightbox" href="">
+                    <img src="img/KeenanAllen-Project1-Digital1.jpg" alt="" class="gallery-image">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a class="glightbox" href="">
+                    <img src="img/KeenanAllen-project2-Digital1.jpg" alt="" class="gallery-image">
+                </a>
+            </div>
+
         </section>
-        <p class="footer-copyrig">Copyright &copy; 2020</p>
-    </footer>
+    </Section>
+    <script src="js/glightbox.min.js"></script>
+    <Script type="text/javascript">
+        const lightbox = Glightbox({ loop: true });
+    </Script>
 </body>
 
 </html>
